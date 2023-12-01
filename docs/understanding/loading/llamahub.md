@@ -19,7 +19,7 @@ documents = loader.load_data(document_ids=[...])
 
 ## Built-in connector: SimpleDirectoryReader
 
-`SimpleDirectoryReader`. Can support parsing a wide range of file types including `.md`, `.pdf`, `.jpg`, `.png`, `.docx`, as well as audio and video types. It is available directly as part of LlamaIndex:
+[`SimpleDirectoryReader`](/modules_guides/loading/simpledirectoryreader.md). Can support parsing a wide range of file types including `.md`, `.pdf`, `.jpg`, `.png`, `.docx`, as well as audio and video types. It is available directly as part of LlamaIndex:
 
 ```python
 from llama_index import SimpleDirectoryReader

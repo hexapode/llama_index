@@ -4,7 +4,7 @@ Before your chosen LLM can act on your data you need to load it. The way LlamaIn
 
 ## Loading using SimpleDirectoryReader
 
-The easiest reader to use is our SimpleDirectoryReader, which creates documents out of every file in a given directory. It is built in to LlamaIndex and can read a variety of formats including Markdown, PDFs, Word documents, PowerPoint decks, images, audio and video.
+The easiest reader to use is our [SimpleDirectoryReader](/modules_guides/loading/simpledirectoryreader.md), which creates documents out of every file in a given directory. It is built in to LlamaIndex and can read a variety of formats including Markdown, PDFs, Word documents, PowerPoint decks, images, audio and video.
 
 ```python
 from llama_index import SimpleDirectoryReader
